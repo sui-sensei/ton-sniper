@@ -55,8 +55,3 @@ TON Blockchain Sniping Bot is application designed to monitor transactions on th
 3. **Sniping**:
    - When a transaction matches the criteria, the bot creates a new transaction (e.g., sending back to the sender with an additional amount).
    - The bot sends the new transaction to the blockchain.
-
-### Security Considerations
-- **Private Key Management**: Ensure that the private key is securely stored and not hard-coded in the script for production environments.
-- **Error Handling**: Implement robust error handling to manage API errors, transaction failures, and network issues.
-- **Rate Limiting**: Respect API rate limits to avoid being banned by the node provider.
