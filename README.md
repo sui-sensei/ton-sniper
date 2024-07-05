@@ -12,14 +12,14 @@ TON Blockchain Sniping Bot is application designed to monitor transactions on th
 - Create a `config.json` file in the root directory of your project and specify your environment variables there. You can utilize the `config.json` that has been provided.
 - run the bot.
 ### Config.json
-``
+```
 {
   "NodeUrl": "https://main.ton.dev",
   "PrivateKey": "your_private_key",
   "TargetAddress": "target_address",
   "TargetAmount": 1000
 }
-``
+```
 ### Detailed Description
 
 **TON Client Initialization**
